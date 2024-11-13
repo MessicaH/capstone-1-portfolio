@@ -28,18 +28,35 @@ Add your website to your GitHub to start building your portfolio.-->
 <head>
     <meta charset="UTF-8">
     <title>My online resume - jessicahelmers </title>
+    <style>
+        #tagline {
+            font-style: italic;
+        }
+    </style>
+            <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <h1>Jessica Helmers</h1>
-    <h2>Jill-of-all-trades, Master of History | Grammarly Ambassador | Half-Elf Bard</h2>
-    <a href="https://linktr.ee/jessicahelmers">My Link Tree</a>
-    <hr/>
-    <img src="./assets/profile-pic.png" alt="Photo of myself with blurred background" height="200"/>
-    <h3><a href="./summary.html">Summary</h3></a>
-    <h3><a href="./education.html">Education</h3></a>
-    <h3><a href="./experience.html">Experience</h3></a>
-    <h3><a href="./skills-and-certs.html">Skills and Certifications</h3></a>
-    <h3><a href="./bonus.html">Additional Notes</h3></a>
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="mailto:jhelm4845+3@gmail.com?subject=Online Resume found on GitHub">Contact</a></li>
+        </ul>
+      </nav>
+    <main>
+        <h1>Jessica Helmers</h1>
+        <p id="tagline">Jill-of-all-trades, Master of History | Grammarly Ambassador | Half-Elf Bard</p>
+        <h2><a href="https://linktr.ee/jessicahelmers">My Link Tree</a></h2>
+        <hr/>
+        <img src="./assets/profile-pic.png" alt="Photo of myself with blurred background" height="200"/>
+        <h2>About Me</h2>
+        <ul id="about">
+            <li><a href="./summary.html">Summary</a></li>
+            <li><a href="https://www.linkedin.com/in/jessicahelmers/">Experience</a></li>
+            <li><a href="./skills-and-certs.html">Skills and Certifications</a></li>
+            <li><a href="./bonus.html">Additional Notes</a></li>
+        </ul>
+    </main>
+
     <footer>
         <p>JHelm © 2024</p>
       </footer>
